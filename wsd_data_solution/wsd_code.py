@@ -1,6 +1,4 @@
-# This module is for word sense disambiguation.
-# Give 2 sentences with some data.
-# give a third sentence and the program will analyse which sentence you are relating to.
+# program will analyse which sentence you are relating to.
 
 
 import nltk
@@ -97,7 +95,7 @@ if __name__ == '__main__':
 
     while(sent3 != "end"):
 
-        sent3 = raw_input("Enter Query: ").lower()
+        sent3 = input("Enter Query: ").lower()
 
         filtered_sent1 = []
         filtered_sent2 = []
@@ -148,12 +146,5 @@ if __name__ == '__main__':
             print("Mammal Bat")
         else:
             print("Cricket Bat")
-
-        # -----------------------------------------------
-        # Sentence1: the river bank has water in it and it has fishes trees . lots of water is stored in the banks. boats float in it and animals come and drink water from it.
-        # sentence2: the commercial banks are used for finance. all the financial matters are managed by financial banks and they have lots of money, user accounts like salary account and savings account, current account. money can also be withdrawn from this bank.
-        # query: from which bank should i withdraw money.
-
-        # sen1: any of various nocturnal flying mammals of the order Chiroptera, having membranous wings that extend from the forelimbs to the hind limbs or tail and anatomical adaptations for echolocation, by which they navigate and hunt prey.
-        # sen 2: a cricket wooden bat is used for playing criket. it is rectangular in shape and has handle and is made of wood or plastic and is used by cricket players.
+       
     print("\nTERMINATED")
